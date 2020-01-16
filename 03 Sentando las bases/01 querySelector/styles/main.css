@@ -73,3 +73,7 @@ width: 120%;
 .ocultarComen {
   color:white;
 }
+
+.comentLong {
+  opacity: 0;
+}
