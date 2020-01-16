@@ -50,8 +50,10 @@ main {
   font-weight: bold;
 }
 
-.comment--text {
-  font-weight: ;
+.comentariofav:hover{
+background-color:yellowgreen;
+color: red;
+width: 120%;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -61,4 +63,9 @@ main {
     --bg-color: #222;
     --font-color: #AAA;
   }
+}
+
+.clasElemHr {
+  
+  border-color: blue;
 }
