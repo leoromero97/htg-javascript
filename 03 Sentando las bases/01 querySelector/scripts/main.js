@@ -13,8 +13,8 @@ for (let i =0;i<elementoHr.length;i++){
 
 let comentarioLargo = document.querySelectorAll('.comment--text');
 console.log(comentarioLargo);
-for (let contador = 0;comentarioLargo.length;contador++) {
-    if (comentarioLargo.length > 50) {
+for (let contador = 0;contador < comentarioLargo.length;contador++) {
+    if (comentarioLargo[contador].innerText.length > 50) {
         comentarioLargo[contador].classList.add('ocultarComen');
     }    
 }
