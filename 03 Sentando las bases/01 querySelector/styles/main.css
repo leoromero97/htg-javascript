@@ -50,15 +50,12 @@ main {
   font-weight: bold;
 }
 
-<<<<<<< HEAD
 .comentariofav:hover{
 background-color:yellowgreen;
 color: red;
 width: 120%;
 }
 
-=======
->>>>>>> upstream/master
 @media (prefers-color-scheme: dark) {
   :root {
     --article-bg-color: #333;
